@@ -1,7 +1,12 @@
+# Python 虚拟环境与字节码
 .venv/
 __pycache__/
 *.pyc
+# 打包与工具缓存
 *.egg-info/
 .pytest_cache/
 .ruff_cache/
+# PyCharm 本地项目配置（个人工作区状态，不入库）
+.idea/
+# macOS
 .DS_Store
